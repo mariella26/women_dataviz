@@ -3,6 +3,12 @@
 	padding-left:1em;
 }
 
+.slogan{
+ padding-left: 3.4em;
+ font-weight: italic;
+ font-size: 16px;
+}
+
 .bandeau-information{
 	position:fixed;
 	float:left;
