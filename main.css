@@ -1,0 +1,57 @@
+.title{
+
+	padding-top: .5em;
+	padding-left:1em;
+
+}
+
+.bandeau-information{
+	position:fixed;
+	float:left;
+	background-color:white;
+	width:100%;
+
+}
+
+.description{
+	padding-left: 3em;
+	padding-top: 1em;
+	
+
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #C75ACE;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+#container {
+  padding: 2em auto;
+}
+
+svg{
+	padding: 1em auto;
+}
+
+
