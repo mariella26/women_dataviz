@@ -4,11 +4,12 @@
   {
    "name": "Critères",
    "children": [
-    {"name": "Finance", "size": 1000},
-    {"name": "Industriel", "size": 1000},
-    {"name": "Energie", "size": 8217},
-    {"name": "Matériaux de base", "size": 12555},
-    {"name": "Bien de consommation", "size": 2324},
+    {"name": "Proportions femme", "size": 1000},
+    {"name": "Proportions cadres", "size": 1000},
+    {"name": "Proportions métier", "size": 1000},
+    {"name": "Ecart Salaires", "size": 1000},
+    {"name": "Formation", "size": 8217},
+    {"name": "Mentorat", "size": 2324},
     {"name": "Santé", "size": 10993},
     {"name": "Services", "size": 335},
     {"name": "Télécom", "size": 383},
@@ -24,113 +25,77 @@
       {
        "name": "Finance",
        "children": [
-        {"name": "AxisLayout", "size": 6725},
-        {"name": "BundledEdgeRouter", "size": 3727},
-        {"name": "CircleLayout", "size": 9317},
-        {"name": "CirclePackingLayout", "size": 12003},
-        {"name": "DendrogramLayout", "size": 4853},
-        {"name": "PieLayout", "size": 2728},
-        {"name": "RadialTreeLayout", "size": 12348},
-        {"name": "RandomLayout", "size": 870},
-        {"name": "StackedAreaLayout", "size": 9121},
-        {"name": "TreeMapLayout", "size": 9191}
+        {"name": "Axa", "size": 1000},
+        {"name": "BNP", "size": 1000},
+        {"name": "Crédit Agricole", "size": 5000},
+        {"name": "Société Generale", "size": 7000}
        ]
       },
 			{
-       "name": "Telecom",
+       "name": "Technologie",
        "children": [
-        {"name": "AxisLayout", "size": 6725},
-        {"name": "BundledEdgeRouter", "size": 3727},
-        {"name": "CircleLayout", "size": 9317},
-        {"name": "CirclePackingLayout", "size": 12003},
-        {"name": "DendrogramLayout", "size": 4853},
-        {"name": "PieLayout", "size": 2728},
-        {"name": "RadialTreeLayout", "size": 12348},
-        {"name": "RandomLayout", "size": 870},
-        {"name": "StackedAreaLayout", "size": 9121},
-        {"name": "TreeMapLayout", "size": 9191}
+        {"name": "ST MicroElectronics", "size": 4000},
+        {"name": "Alcatel Lucent", "size": 5000},
+        {"name": "Cap Gemini", "size": 6000},
+        {"name": "Safran", "size": 3000},
+        {"name": "Orange", "size": 8000}
        ]
       },
 
 			{
-       "name": "Télécom",
+       "name": "Santé",
        "children": [
-        {"name": "AxisLayout", "size": 6725},
-        {"name": "BundledEdgeRouter", "size": 3727},
-        {"name": "CircleLayout", "size": 9317},
-        {"name": "CirclePackingLayout", "size": 12003},
-        {"name": "DendrogramLayout", "size": 4853},
-        {"name": "PieLayout", "size": 2728},
-        {"name": "RadialTreeLayout", "size": 12348},
-        {"name": "RandomLayout", "size": 870},
-        {"name": "StackedAreaLayout", "size": 9121},
-        {"name": "TreeMapLayout", "size": 9191}
+        {"name": "Sanofi", "size": 5000}
        ]
       },
 			{
        "name": "Services",
        "children": [
-        {"name": "AxisLayout", "size": 6725},
-        {"name": "BundledEdgeRouter", "size": 3727},
-        {"name": "CircleLayout", "size": 9317},
-        {"name": "RandomLayout", "size": 870},
-        {"name": "StackedAreaLayout", "size": 9121},
-        {"name": "TreeMapLayout", "size": 9191}
+        {"name": "Carrefour", "size": 4000},
+        {"name": "Publicis", "size": 5000},
+        {"name": "Unibail-Rodamco", "size": 6000}
        ]
       },
 			{
-       "name": "Indistruel",
+       "name": "Industriel",
        "children": [
-        {"name": "AxisLayout", "size": 6725},
-        {"name": "BundledEdgeRouter", "size": 3727},
-        {"name": "CircleLayout", "size": 9317},
-        {"name": "RandomLayout", "size": 870},
-        {"name": "StackedAreaLayout", "size": 9121},
-        {"name": "TreeMapLayout", "size": 9191}
+        {"name": "AirbusGroup", "size": 2000},
+        {"name": "Alstom", "size": 1000},
+        {"name": "ArcelorMittal", "size": 1000},
+        {"name": "Bouygues", "size": 3000},
+        {"name": "Essilor", "size": 1000},
+        {"name": "Legrand", "size": 4000},
+        {"name": "Michelin", "size": 9000},
+        {"name": "Schneider Electric", "size": 3000},
+        {"name": "Solvay", "size": 6000},
+        {"name": "Valeo", "size": 3000},
+        {"name": "Vinci", "size": 4000},
+        {"name": "St Gobain", "size": 8000},
+        {"name": "Lafarge", "size": 3000}
        ]
       },
 			{
        "name": "Energie",
        "children": [
-        {"name": "AxisLayout", "size": 6725},
-        {"name": "BundledEdgeRouter", "size": 3727},
-        {"name": "CircleLayout", "size": 9317},
-        {"name": "CirclePackingLayout", "size": 12003},
-        {"name": "DendrogramLayout", "size": 4853},
-        {"name": "ForceDirectedLayout", "size": 8411},
-        {"name": "IcicleTreeLayout", "size": 4864},
-        {"name": "IndentedTreeLayout", "size": 3174},
-        {"name": "Layout", "size": 7881},
-        {"name": "NodeLinkTreeLayout", "size": 12870},
-        {"name": "PieLayout", "size": 2728},
-        {"name": "RadialTreeLayout", "size": 12348},
-        {"name": "RandomLayout", "size": 870},
-        {"name": "StackedAreaLayout", "size": 9121},
-        {"name": "TreeMapLayout", "size": 9191}
-       ]
-      },
-			{
-       "name": "Matériaux de base",
-       "children": [
-        {"name": "AxisLayout", "size": 6725},
-        {"name": "BundledEdgeRouter", "size": 3727},
-        {"name": "Layout", "size": 7881},
-        {"name": "NodeLinkTreeLayout", "size": 12870},
-        {"name": "PieLayout", "size": 2728},
-        {"name": "RadialTreeLayout", "size": 12348},
-        {"name": "RandomLayout", "size": 870},
-        {"name": "StackedAreaLayout", "size": 9121},
-        {"name": "TreeMapLayout", "size": 9191}
+        {"name": "Air Liquide", "size": 2000},
+        {"name": "EDF", "size": 1000},
+        {"name": "GDF-Suez", "size": 5000},
+        {"name": "Technip", "size":4000},
+        {"name": "Total", "size": 5000},
+        {"name": "Veolia", "size": 3000}
        ]
       },
 			{
        "name": "Bien de consommation",
        "children": [
-        {"name": "AxisLayout", "size": 6725},
-        {"name": "BundledEdgeRouter", "size": 3727},
-        {"name": "RandomLayout", "size": 870},
-        {"name": "StackedAreaLayout", "size": 9121},
-        {"name": "TreeMapLayout", "size": 9191}
+        {"name": "Accord", "size": 5000},
+        {"name": "Danone", "size": 3000},
+        {"name": "Kering", "size": 8000},
+        {"name": "L'oreal", "size": 3000},
+        {"name": "Pernod-Ricard", "size": 4000},
+        {"name": "Renault", "size": 5000},
+        {"name": "Vivendi", "size": 5000},
+        {"name": "LVMH", "size": 5000}
        ]
       }
      ]

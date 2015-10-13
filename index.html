@@ -3,7 +3,7 @@
 
 <head>
         <meta charset="UTF-8">
-        <title>Dataviz</title>
+        <title>GenderFlash</title>
 			  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 				<script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -15,17 +15,15 @@
 <body>
 				<div id="container">
 							<div class="bandeau-information">
-									<h1 class="title">Dataviz</h1>
+									<h1 class="title">GenderFlash - main</h1>
+									<h2 class="slogan">We love your data but flush the bullshit!</h2>
 									<ul class="menu-info">
-									        <li class="menu-info-item"><a class="menu-info-item-link" href="/">Dataviz</a></li>
+									        <li class="menu-info-item"><a class="menu-info-item-link" href="/">Main</a></li>
 									        <li class="menu-info-item"><a class="menu-info-item-link" href="/about.html">A propos</a></li>
 									</ul>
 
-								<p class="description">Equipe du Hackathon ayant participé à l'élaboration.</p>
-							
 							</div>
 							<div id="graph"></div>
-
 
 							<div class="comments">
 							
@@ -45,12 +43,12 @@ var color = d3.scale.linear()
 var pack = d3.layout.pack()
     .padding(2)
     .size([diameter - margin, diameter - margin])
-    .value(function(d) { return d.size; })
+    .value(function(d) { return d.size; });
 
 var svg = d3.select("#graph").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
-  .append("g")
+    .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
 d3.json("flare.json", function(error, root) {
@@ -69,7 +67,7 @@ d3.json("flare.json", function(error, root) {
 
   var text = svg.selectAll("text")
       .data(nodes)
-    .enter().append("text")
+      .enter().append("text")
       .attr("class", "label")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? null : "none"; })
