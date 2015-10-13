@@ -1,8 +1,6 @@
 .title{
-
 	padding-top: .5em;
 	padding-left:1em;
-
 }
 
 .bandeau-information{
@@ -13,11 +11,22 @@
 
 }
 
+ul.menu-info{
+	display:inline-block;
+}
+
+.menu-info-item{
+	float:left;
+	padding-left:.5em;
+	margin-right:.5em;
+	list-style-type:none;
+}
+
 .description{
 	padding-left: 3em;
 	padding-top: 1em;
+	padding-bottom: 1em;
 	
-
 }
 
 .node {
