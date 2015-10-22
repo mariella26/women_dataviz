@@ -5,6 +5,20 @@ DATAVIZ
 
 Simple website with datavizualisation of the women parity in entreprise
 
+Pour lancer l'application dans votre terminal lancer un serveur python dans la racine du dossier
+
+Python 2
+```
+$ python -m SimpleHTTPServer
+
+```
+
+Python 3
+```
+$ python -m http.server 
+
+```
+
 ## Stack
 
 * jquery
