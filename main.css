@@ -75,3 +75,7 @@ svg{
 	z-index: 1;
 }
 
+.redim {
+	height: 25em;
+	width: 26em;
+}
